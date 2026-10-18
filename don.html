@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Faire un don — RADES</title>
+  <meta name="description" content="Soutenez une action concrète : Kit Écolier 10 000 F, Kit Santé 15 000 F, Kit Quartier Propre 50 000 F ou montant libre. MTN MoMo, Moov Money, Wave, virement, PayPal.">
+  <link rel="canonical" href="https://www.rades-ong.org/don.html">
+  <meta name="theme-color" content="#1f2e6b">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="RADES">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="Faire un don — RADES">
+  <meta property="og:description" content="Soutenez une action concrète : Kit Écolier 10 000 F, Kit Santé 15 000 F, Kit Quartier Propre 50 000 F ou montant libre. MTN MoMo, Moov Money, Wave, virement, PayPal.">
+  <meta property="og:url" content="https://www.rades-ong.org/don.html">
+  <meta property="og:image" content="https://www.rades-ong.org/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=9">
+</head>
+<body data-page="don" class="page-don">
+<div data-include="header"></div>
+<noscript><nav class="noscript-nav" aria-label="Menu principal"><a href="index.html">Accueil</a><a href="qui-sommes-nous.html">Qui sommes-nous</a><a href="pole-sante.html">Nos actions</a><a href="actualites.html">Actualités</a><a href="formations-rapports.html">Formations &amp; rapports</a><a href="s-engager.html">S'engager</a><a href="contact.html">Contact</a><a href="don.html">Faire un don</a></nav></noscript>
+
+<main id="contenu">
+  <header class="don-hero">
+    <div class="wrap">
+      <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a><span>/</span>Faire un don</nav>
+      <span class="kicker">Faire un don</span>
+      <h1>Soutenez une action concrète</h1>
+      <p class="lead">Choisissez ce que votre don finance. Nous vous envoyons ensuite un reçu et la photo de l'action réalisée.</p>
+      <div class="stamp" aria-label="Garantie : reçu et photo de l'action financée"><span>Garantie<b>Reçu + photo</b>de l'action financée</span></div>
+    </div>
+  </header>
+
+  <section class="section section--flush-top">
+    <div class="wrap">
+      <h2 class="visually-hidden">1. Choisir un kit</h2>
+      <div class="kits" role="group" aria-label="Choisir un kit">
+        <button class="kit c-edu" id="kit-ecolier" type="button" data-kit="Kit Écolier" data-amount="10000" aria-pressed="false">
+          <span class="kit__top"><span class="kit__no">KIT N° 01</span><span class="kit__icon" data-icon="kit_ecole"></span><span class="kit__title">Kit Écolier</span><span class="kit__desc">Cartable, cahiers et fournitures pour une année scolaire.</span></span>
+          <span class="kit__bottom"><span class="kit__price">10 000 <small>F CFA</small></span><span class="kit__check">✓</span></span>
+        </button>
+        <button class="kit c-sante" id="kit-sante" type="button" data-kit="Kit Santé" data-amount="15000" aria-pressed="false">
+          <span class="kit__top"><span class="kit__no">KIT N° 02</span><span class="kit__icon" data-icon="kit_sante"></span><span class="kit__title">Kit Santé</span><span class="kit__desc">Médicaments et soins pour un malade indigent hospitalisé.</span></span>
+          <span class="kit__bottom"><span class="kit__price">15 000 <small>F CFA</small></span><span class="kit__check">✓</span></span>
+        </button>
+        <button class="kit c-env" id="kit-quartier" type="button" data-kit="Kit Quartier Propre" data-amount="50000" aria-pressed="false">
+          <span class="kit__top"><span class="kit__no">KIT N° 03</span><span class="kit__icon" data-icon="kit_quartier"></span><span class="kit__title">Kit Quartier Propre</span><span class="kit__desc">Outils et matériel de salubrité pour un comité de quartier.</span></span>
+          <span class="kit__bottom"><span class="kit__price">50 000 <small>F CFA</small></span><span class="kit__check">✓</span></span>
+        </button>
+        <div class="kit kit--free c-appui" id="montant-libre" data-kit="Montant libre" role="group" aria-label="Montant libre">
+          <span class="kit__top"><span class="kit__no">LIBRE</span><span class="kit__icon" data-icon="kit_libre"></span><span class="kit__title">Montant libre</span>
+            <label class="visually-hidden" for="free-amount">Montant en francs CFA</label>
+            <input id="free-amount" type="number" min="500" step="500" inputmode="numeric" placeholder="Ex. 25 000">
+          </span>
+          <span class="kit__bottom"><span class="kit__price"><small>F CFA, au choix</small></span><span class="kit__check">✓</span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--flush-top">
+    <div class="wrap don-steps">
+      <div>
+        <div class="step-title"><span>2</span><h2>Choisissez votre moyen de paiement</h2></div>
+        <div class="pay-tabs" role="tablist" aria-label="Moyens de paiement">
+          <button class="pay-tab" role="tab" id="t-mtn" aria-controls="p-mtn" aria-selected="true" data-method="MTN MoMo"><i style="background:#ffcb05"></i>MTN MoMo</button>
+          <button class="pay-tab" role="tab" id="t-moov" aria-controls="p-moov" aria-selected="false" tabindex="-1" data-method="Moov Money"><i style="background:#0060a9"></i>Moov Money</button>
+          <button class="pay-tab" role="tab" id="t-wave" aria-controls="p-wave" aria-selected="false" tabindex="-1" data-method="Wave"><i style="background:#1dc8ff"></i>Wave</button>
+          <button class="pay-tab" role="tab" id="t-vir" aria-controls="p-vir" aria-selected="false" tabindex="-1" data-method="Virement bancaire"><i style="background:var(--ink)"></i>Virement</button>
+          <button class="pay-tab" role="tab" id="t-pp" aria-controls="p-pp" aria-selected="false" tabindex="-1" data-method="PayPal"><i style="background:#003087"></i>PayPal</button>
+        </div>
+
+        <div class="pay-panel" role="tabpanel" id="p-mtn" aria-labelledby="t-mtn">
+          <h3>Payer avec MTN Mobile Money</h3>
+          <ol>
+            <li>Composez <strong>*880#</strong> sur votre téléphone MTN (ou utilisez l'application MoMo).</li>
+            <li>Choisissez « Transfert d'argent », puis entrez le numéro ci-dessous.</li>
+            <li>Saisissez le montant de votre don : <strong data-amount-label>—</strong>.</li>
+          </ol>
+          <div class="copy-line"><span><small>Numéro MTN MoMo · RADES</small><span class="tbr" data-cfg="mtn"></span></span><button class="copy-btn" type="button" data-copy="mtn">Copier</button></div>
+        </div>
+        <div class="pay-panel" role="tabpanel" id="p-moov" aria-labelledby="t-moov" hidden>
+          <h3>Payer avec Moov Money</h3>
+          <ol>
+            <li>Composez <strong>*855#</strong> sur votre téléphone Moov (ou utilisez l'application Moov Money).</li>
+            <li>Choisissez « Transfert », puis entrez le numéro ci-dessous.</li>
+            <li>Saisissez le montant de votre don : <strong data-amount-label>—</strong>.</li>
+          </ol>
+          <div class="copy-line"><span><small>Numéro Moov Money · RADES</small><span class="tbr" data-cfg="moov"></span></span><button class="copy-btn" type="button" data-copy="moov">Copier</button></div>
+        </div>
+        <div class="pay-panel" role="tabpanel" id="p-wave" aria-labelledby="t-wave" hidden>
+          <h3>Payer avec Wave</h3>
+          <ol>
+            <li>Ouvrez l'application Wave.</li>
+            <li>Envoyez votre don au numéro ci-dessous (ou utilisez notre lien de paiement).</li>
+            <li>Montant : <strong data-amount-label>—</strong>.</li>
+          </ol>
+          <div class="copy-line"><span><small>Numéro Wave · RADES</small><span class="tbr" data-cfg="wave"></span></span><button class="copy-btn" type="button" data-copy="wave">Copier</button></div>
+          <a class="btn btn--sm" data-href="wave" href="#" target="_blank" rel="noopener">Ouvrir Wave</a>
+        </div>
+        <div class="pay-panel" role="tabpanel" id="p-vir" aria-labelledby="t-vir" hidden>
+          <h3>Payer par virement bancaire</h3>
+          <p>Idéal pour les dons depuis l'étranger et les entreprises. Indiquez « DON + votre nom » en libellé.</p>
+          <div class="copy-line"><span><small>Banque</small><span class="tbr" data-cfg="banque"></span></span></div>
+          <div class="copy-line"><span><small>Titulaire</small><span data-cfg="titulaire"></span></span></div>
+          <div class="copy-line"><span><small>IBAN / RIB</small><span class="tbr" data-cfg="iban"></span></span><button class="copy-btn" type="button" data-copy="iban">Copier</button></div>
+          <div class="copy-line"><span><small>Code BIC / SWIFT</small><span class="tbr" data-cfg="swift"></span></span><button class="copy-btn" type="button" data-copy="swift">Copier</button></div>
+        </div>
+        <div class="pay-panel" role="tabpanel" id="p-pp" aria-labelledby="t-pp" hidden>
+          <h3>Payer avec PayPal ou carte bancaire</h3>
+          <p>Paiement sécurisé par PayPal, avec ou sans compte PayPal (carte Visa / Mastercard). Montant suggéré : <strong data-amount-label>—</strong>.</p>
+          <a class="btn btn--ink" data-href="paypal" href="#" target="_blank" rel="noopener">Donner via PayPal</a>
+        </div>
+
+        <div class="mt-48">
+          <div class="step-title"><span>3</span><h2>Recevez votre reçu et la photo</h2></div>
+          <p>Après votre paiement, envoyez-nous la confirmation : nous vous adressons votre reçu, puis la photo de l'action financée dès qu'elle est réalisée.</p>
+          <form class="form" id="don-form" novalidate>
+            <div class="field"><label for="d-nom">Nom et prénom</label><input id="d-nom" name="nom" autocomplete="name"></div>
+            <div class="field"><label for="d-ref">Référence de la transaction <span class="opt">(facultatif)</span></label><input id="d-ref" name="reference"></div>
+          </form>
+        </div>
+      </div>
+
+      <aside class="summary" aria-live="polite">
+        <h3>Récapitulatif</h3>
+        <dl>
+          <dt>Votre choix</dt><dd id="s-kit">—</dd>
+          <dt>Paiement</dt><dd id="s-method">MTN MoMo</dd>
+        </dl>
+        <div class="total"><span>Montant</span><b id="s-amount">—</b></div>
+        <a class="btn wa-btn" id="don-confirm" href="#" target="_blank" rel="noopener"><span data-icon="whatsapp"></span>J'ai fait mon don — confirmer</a>
+        <p class="note" style="margin:10px 0 0">Ouvre WhatsApp avec un message pré-rempli. Vous pouvez aussi écrire à <a class="tbr" data-href="email" data-cfg="email" href="#"></a>.</p>
+        <div class="guarantee"><span data-icon="shield"></span><span>Chaque don est affecté à l'action choisie et justifié par un reçu et une photo. <a href="qui-sommes-nous.html#transparence">Notre politique de transparence</a></span></div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section--ink" aria-labelledby="apres">
+    <div class="wrap">
+      <span class="kicker">Et après votre don ?</span>
+      <h2 id="apres" style="max-width:20ch;margin-bottom:48px">Ce qui se passe, étape par étape</h2>
+      <div class="promise">
+        <div><h3>Reçu sous 48 h</h3><p>Nous confirmons la réception de votre don et vous envoyons votre reçu.</p></div>
+        <div><h3>Action réalisée</h3><p>Votre don est affecté à l'action choisie lors de la prochaine distribution ou intervention.</p></div>
+        <div><h3>Photo envoyée</h3><p>Vous recevez la photo de l'action financée, sur WhatsApp ou par e-mail.</p></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div data-include="footer"></div>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/don.js"></script>
+</body>
+</html>

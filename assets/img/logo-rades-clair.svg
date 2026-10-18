@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 50" width="160" height="50">
+  <!-- Logo provisoire : à remplacer par le logo officiel de RADES -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 44 A19 19 0 0 1 44 44" stroke="#faf8f4" stroke-width="3"/>
+    <path d="M12 44 A13 13 0 0 1 38 44" stroke="#d99a2b" stroke-width="3"/>
+    <circle cx="25" cy="13" r="6" fill="#b4462a" stroke="none"/>
+    <path d="M25 22 V40 M14 25 Q25 33 36 25" stroke="#faf8f4" stroke-width="3.4"/>
+  </g>
+  <text x="54" y="31" font-family="Georgia, 'Times New Roman', serif" font-size="27" letter-spacing="1" fill="#faf8f4">RADES</text>
+  <text x="55" y="44" font-family="Arial, Helvetica, sans-serif" font-size="7.4" font-weight="700" letter-spacing="1.6" fill="#d99a2b">L'HUMAIN AU CŒUR</text>
+</svg>

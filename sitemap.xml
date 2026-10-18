@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ajouter une ligne <url> pour chaque nouvel article. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.rades-ong.org/</loc><priority>1.0</priority></url>
+  <url><loc>https://www.rades-ong.org/qui-sommes-nous.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.rades-ong.org/pole-sante.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.rades-ong.org/pole-education.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.rades-ong.org/pole-appui-formations.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.rades-ong.org/pole-environnement.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.rades-ong.org/pole-citoyennete.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.rades-ong.org/actualites.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.rades-ong.org/article.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.rades-ong.org/formations-rapports.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.rades-ong.org/don.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.rades-ong.org/s-engager.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.rades-ong.org/contact.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.rades-ong.org/mentions-legales.html</loc><priority>0.6</priority></url>
+  <url><loc>https://www.rades-ong.org/confidentialite.html</loc><priority>0.6</priority></url>
+</urlset>
